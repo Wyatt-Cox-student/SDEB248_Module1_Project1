@@ -3,7 +3,6 @@ extends CharacterBody2D
 @export var speed: float = 50.0
 @export var gravity: float = 1400.0
 @export var can_move: bool = false
-@onready var sprite = $AnimatedSprite2D
 
 # Start direction: -1 = left, +1 = right
 @export var direction: int = -1
